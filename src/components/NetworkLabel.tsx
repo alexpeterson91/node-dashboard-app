@@ -19,7 +19,7 @@ const NetworkLabel: FC<NetworkLabelProps> = ({ network }) => {
 
 		case isDN(network):
 			className = 'green'
-			text = 'xDAI'
+			text = 'Gnosis Chain'
 			break
 
 		default:
